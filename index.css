@@ -1,4 +1,12 @@
 
+.bdy{
+ border: 0px;
+ display: inline-block;
+ text-align: center;
+}
+.nav,#b{
+    text-align: center;
+}
 #one {
     list-style-type: none;
   /* margin-right: 20px; */
@@ -6,7 +14,7 @@
   margin-top: 10px;
   text-decoration: none;
   color: black;
-  /* position: absolute; */
+   position: sticky; 
   /* text-align: center; */
   display: inline-block;
   /* align-items: center; */
@@ -62,10 +70,13 @@ text-align: center;}
 }
 #b{
     background-image: url("mid.jpg");
-    height:500px;
+    height:700px;
+    margin-top: -200px;
     background-repeat: no-repeat;
-    /* margin-top: 120px; */
-    width: 200%;
+    background-position:center;
+     /* margin-left: 220px;  */
+    width: 100%;
+    text-align: center;
 }
 #p1{
     font-size: 30px;
