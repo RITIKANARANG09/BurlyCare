@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <meta name="generator" content="pdf2htmlEX"/> -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <link  rel="stylesheet" href="index.css">
+        <script type="text/javascript" src="index.js"></script>
+        <style>@media only screen and (max-width: 768px) {
+            .btn1,.btn2,#one,#bdy,#bdy2,#bdy1{
+              width: 100%;
+            }
+          }
+          
+          @media only screen and (max-width: 768px) {
+            .btn1,.btn2,#one{
+              display: block;
+              width: 100%;
+            }
+          }
+          @media only screen and (max-width: 572px) {
+            .search{
+              display: block;
+              width: 80%;
+              /* overflow-wrap: normal; */
+            }
+          }
+          @media only screen and (max-width: 768px) {
+            .x{
+              width: 80%;
+              height: 50%;
+            }
+          }
+          </style>
+    </head>
+    <body>
+       <div class="nav">
+        <a href="https://burlycare.com/"><img src="logo.jpg" style="height:35px;margin-bottom:-12px;width:120px; margin-top:10px ;margin-left:40px ;cursor: pointer;"></a>       
+        <select  name="location" style="border:0px;margin-left: 60px; margin-top: auto;cursor: pointer;">
+            <option value="Delhi">Delhi</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Punjab">Punjab</option>
+        </select>
+        <span><input class="search" type="text" placeholder="Search here" style=" padding:6px; width: 460px; margin-left:80px; height: 22px; border-radius: 14px; border: 0px; background-color: rgb(243, 237, 237);"></span>
+       <span style="margin-left:78px">Call <a style="text-decoration: none; color: rgb(246, 5, 5);font-weight: bold;">0876-123-4567</a></span>
+<button onclick="fun1()" style="padding: 4px; margin-left: 10px; padding:12px;background-color: rgb(187, 10, 10); color: white; border-radius: 24px; border:0px; cursor: pointer;">Log In/Sign Up</button>   
+</div>
+<div id="navid" style=" margin-top:10px; width:100%; height:50px;background-color: rgba(255, 176, 190, 0.486); ">
+<ul id="one">
+    <li><a class="onee"style="color:black;text-decoration:none; background-color:rgba(255, 176, 190, 0); margin-right: 20px;" href="https://burlycare.com/adenoidectomy">ENT</a></li>
+    <li><a class="onee"style="border: 0px;color:black;text-decoration:none;background-color: rgba(255, 176, 190, 0);margin-right: 20px;"href="news.asp">Gynaecology</a></li>
+    <li><a class="onee"style="border: 0px;background-color: rgba(255, 176, 190, 0);color:black;text-decoration:none;margin-right: 20px;"href="https://burlycare.com/piles">Protolohy</a></li>
+    <li><a class="onee"style="border: 0px;background-color: rgba(255, 176, 190, 0);color:black;text-decoration:none;margin-right: 20px;"href="https://burlycare.com/hernia">Laparoscopy</a></li>
+    <li><a class="onee"style="border: 0px;background-color: rgba(255, 176, 190, 0);color:black;text-decoration:none;margin-right: 20px;"href="https://burlycare.com/kidney-stones">Urology</a></li>
+    <li><a class="onee"style="border: 0px;background-color: rgba(255, 176, 190, 0);color:black;text-decoration:none;margin-right: 20px;"href="https://burlycare.com/carpal-tunnel-syndrome">Othopedics</a></li>
+  </ul></div>
+<div id="bdy">Book<span id="bdy1"> Free Appointments</span> With Our<div> Expert Doctors!</div></div>
+<div id="bdy2">Get full medical assistance and consultation for diseases<div> Hassle-free experience throughout your treatment.</div></div>
+<div style="text-align: center;">
+<button id="btn1" onclick="fun3()">Book Appointments</button>
+<button id="btn2" onclick="fun2()">Call Our Agent</button>
+</div>
+<div id="b"></div>
+<p id="p1" style="margin-top: -160px;">Surgeries we Provide</p>
+    <div class="parent">
+        <div class="a" id="parent1" onclick="d1()" onmouseenter="size()"><img src="p.jpg" class="im"><p style="font-weight: bolder;">Fissure</p><p>An anal fissure is a small tear in the thin,moist tissue that lines anus. </p></div>
+        <div class="a" id="parent2" onclick="d2()" onmouseenter="size()"><img src="p.jpg" class="im"><p style="font-weight: bolder;">Hernia</p><p>A hernia occurs when other body part produces wall  of tissue contains it.</p></div>
+        <div class="a" id="parent3" onclick="d3()" onmouseenter="size()"><img src="p.jpg" class="im"><p style="font-weight: bolder;">Piles</p><p>Piles is common in both four adults suffers from piles  in life. </p></div>
+        <div class="a" id="parent4" onclick="d4()" onmouseenter="size()"><img src="p.jpg" class="im"><p style="font-weight: bolder;">Fissure</p><p>An anal fissure is a small tear in the thin,moist tissue that lines anus. </p></div>
+        <div class="a" id="parent5" onclick="d5()" onmouseenter="size()"><img src="p.jpg" class="im"><p style="font-weight: bolder;">Fissure</p><p>An anal fissure is a small tear in the thin,moist tissue that lines anus. </p></div>
+    </div>
+    <div id="btn22">    <button id="btn2" onclick="fun4()">View All</button> </div>
+
+    <div class="x"style="border-radius: 14px; border:2px red solid;">
+        <img src="side.jpg" class="cl2"> 
+        <p class="rr" style="font-weight: bolder; text-decoration:underline;text-decoration-color:rgb(194, 16, 16);">Why BurlyCare?</p>
+        <p class="r">1. Prior safe for COVID-19</p>
+       <p class="rr"> We are providing the service where our doctors and staff are all tested of COVID-19 and following the social distancing, our clinics are sanitized on daily basis, sterilized surgical equipment, and mandatory PPE kits during surgery.</p>
+    <p class="r">2. Prime surgery experience</p><p class="rr"> A greedy Medical Coordinator helps you throughout the surgery outing from insurance paperwork, to free commute from home to hospital & back and admission-discharge process at the hospital with convenience.
+    </p><p class="r">
+        3. Medical Expertise with best Technology</p>
+        <p class="rr">Our surgeons spend a lot of time with you to diagnose your condition. You are assisted in all pre-surgery medical diagnostics. We offer advanced laser and laparoscopic surgical treatments.
+    </p><p class="r"> 4. After the surgery done</p>
+        <p class="rr">We take care of regular follow-ups post-surgery to take care of your health, our experts guide you about your diets and exercises
+    </p></div>
+    <div style="background-color: rgba(251, 174, 223, 0.359); height: 400px;">    
+        <p style="font-weight: bold; font-size: 30px; text-align: center; margin-top:80px">BurlyCare in Numbers</p>
+    <p style="text-align: center; color: grey;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <p style="text-align: center; color: grey;">Repudiandae sunt sint a voluptatum nisi repellat ea vitae excepturi perspiciatis ipsa.</p></p>
+    <div class="parents">
+        <div class="a2" ><img src="a.jpg"><p id="o1">300+</p><p id="i1">Happy Patients</p></div>
+        <div class="a2" ><img src="b.jpg"><p id="o2"> 500+ </p><p id="i2">Hospitals </p></div>
+        <div class="a2" ><img src="c.jpg"><p id="o3"> 20+ </p><p id="i3">Doctors</p></div>
+        <div class="a2" ><img src="d.jpg"><p id="o4"> 3+</p><p id="i4">Cites </p></div>
+    </div></div>
+
+</body>
+</html>
