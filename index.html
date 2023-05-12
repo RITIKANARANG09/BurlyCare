@@ -6,7 +6,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
         <link  rel="stylesheet" href="index.css">
         <script type="text/javascript" src="index.js"></script>
-        <style>@media only screen and (max-width: 768px) {
+        <style>
+        @media screen and (min-width: 767px) {
+          .bdy { 
+             width: 100%;
+             /* padding: 12px 30px 12px 5px;
+            margin: 5px 0px; */
+}}
+        @media only screen and (max-width: 768px) {
             .btn1,.btn2,#one,#bdy,#bdy2,#bdy1{
               width: 100%;
             }
@@ -25,17 +32,30 @@
               /* overflow-wrap: normal; */
             }
           }
-          @media only screen and (max-width: 768px) {
-            .x{
-              width: 80%;
-              height: 50%;
+          @media only screen and (min-width: 1768px) {
+            .x,.navbar{
+              text-align: center;
+               width: 50%; 
+               margin-left: 200px;
+              height: 80%;
+            }
+          }
+          @media only screen and (min-width: 1768px ) {
+            .x,.y{
+               text-align: left; 
+              /* border-width: 40%; */
+              /* size: 40%;  */
+              margin-left: 26%;
+               width: 50%; 
+               box-sizing: border-box;
+              height: 60%; 
             }
           }
           </style>
     </head>
-    <body>
+    <body class="bdy">
        <div class="nav">
-        <a href="https://burlycare.com/"><img src="logo.jpg" style="height:35px;margin-bottom:-12px;width:120px; margin-top:10px ;margin-left:40px ;cursor: pointer;"></a>       
+        <a class="navbar"href="https://burlycare.com/"><img src="logo.jpg" style="height:35px;margin-bottom:-12px;width:120px; margin-top:10px ;margin-left:40px ;cursor: pointer;"></a>       
         <select  name="location" style="border:0px;margin-left: 60px; margin-top: auto;cursor: pointer;">
             <option value="Delhi">Delhi</option>
             <option value="Haryana">Haryana</option>
@@ -84,7 +104,7 @@
     </p><p class="r"> 4. After the surgery done</p>
         <p class="rr">We take care of regular follow-ups post-surgery to take care of your health, our experts guide you about your diets and exercises
     </p></div>
-    <div style="background-color: rgba(251, 174, 223, 0.359); height: 400px;">    
+    <div class="y" style="background-color: rgba(251, 174, 223, 0.359); height: 400px;">    
         <p style="font-weight: bold; font-size: 30px; text-align: center; margin-top:80px">BurlyCare in Numbers</p>
     <p style="text-align: center; color: grey;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <p style="text-align: center; color: grey;">Repudiandae sunt sint a voluptatum nisi repellat ea vitae excepturi perspiciatis ipsa.</p></p>
     <div class="parents">
